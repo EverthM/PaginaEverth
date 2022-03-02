@@ -6,5 +6,7 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    // cuando se van a controlar aqui sera 
+    public function __invoke(){
+        return "Bienvenido a la pagina de chistes para la lilyta mi amor guapaaaaaa";
+    }
 }
